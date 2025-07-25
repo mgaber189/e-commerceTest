@@ -1,0 +1,61 @@
+{
+  "welcome": "Welcome",
+  "product": {
+    "category": "Category",
+    "price": "Price",
+    "add_to_cart": "Add to Cart",
+    "Product A": "Product A",
+    "Product B": "Product B",
+    "Product C": "Product C",
+    "Product D": "Product D",
+    "Product E": "Product E",
+    "Product F": "Product F",
+    "Product G": "Product G",
+    "Desc A": "This is the description for product A.",
+    "Desc B": "This is the description for product B.",
+    "Desc C": "This is the description for product C.",
+    "Desc D": "This is the description for product D.",
+    "Desc E": "This is the description for product E.",
+    "Desc F": "This is the description for product F.",
+    "Desc G": "This is the description for product G.",
+    "AddToCart": "Add to Cart"
+  },
+    "app_name": "Products",
+  "shop": "Shop",
+  "products":"Products",
+  "languages": {
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "name": "Name",
+    "price": "Price",
+    "quantity": "Quantity",
+    "subtotal": "Sub Total",
+    "action": "Action",
+    "couponPlaceholder": "Coupon Number",
+    "applyCoupon": "Apply Coupon",
+    "cartTotals": "Cart totals",
+    "shippingCharge": "Shipping Charge",
+    "total": "Total",
+    "proceed": "Proceed to Checkout"
+  },
+    "login": {
+    "title": "Login to your account",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "submit": "Login",
+    "errors": {
+      "requiredEmail": "Email is required",
+      "invalidEmail": "Enter a valid email address",
+      "requiredPassword": "Password is required",
+      "shortPassword": "Password must be at least 6 characters"
+    },
+    "loginButton":"Login"
+  }
+
+}

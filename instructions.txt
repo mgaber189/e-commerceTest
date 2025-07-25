@@ -1,0 +1,60 @@
+
+Nuxt 3 Project - Local Setup Instructions
+=========================================
+
+📦 Prerequisites
+----------------
+- Node.js (v16.12.0 or later recommended)
+- npm or yarn
+
+You can check if they're installed using:
+> node -v
+> npm -v
+
+🌐 Install Dependencies
+-----------------------
+1. Navigate to the project root directory.
+2. Run the following command:
+
+   Using npm:
+   > npm install
+
+   Or using yarn:
+   > yarn install
+
+🚀 Run the Development Server
+-----------------------------
+Start the local server with:
+
+   Using npm:
+   > npm run dev
+
+   Or using yarn:
+   > yarn dev
+
+📂 Project will be available at:
+> http://localhost:3000
+
+🛠 Common Commands
+------------------
+- Build for production:
+  > npm run build
+
+- Start production server:
+  > npm run start
+
+- Preview production build (after building):
+  > npm run preview
+
+🧼 Clean install (if needed):
+-----------------------------
+If you encounter issues:
+> rm -rf node_modules .output
+> npm install
+
+📝 Notes
+--------
+- Make sure your `.env` file (if required) is configured before running the app.
+- If you're using localStorage or APIs, verify that CORS and permissions are set correctly.
+
+Happy coding! ✨

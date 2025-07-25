@@ -1,0 +1,57 @@
+{
+     "shop": "المتجر",
+  "welcome": "مرحباً",
+  "products":"منتجات",
+  "product": {
+    "category": "الفئة",
+    "price": "السعر",
+    "add_to_cart": "أضف إلى السلة",
+    "Product A": "المنتج أ",
+    "Product B": "المنتج ب",
+    "Product C": "المنتج ج",
+    "Product D": "المنتج د",
+    "Product E": "المنتج هـ",
+    "Product F": "المنتج و",
+    "Product G": "المنتج ز",
+    "Desc A": "وصف المنتج أ",
+    "Desc B": "وصف المنتج ب",
+    "Desc C": "وصف المنتج ج",
+    "Desc D": "وصف المنتج د",
+    "Desc E": "وصف المنتج ه",
+    "Desc F": "وصف المنتج و",
+    "Desc G": "المنتج ز",
+    "AddToCart": "أضف إلى السلة"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "name": "الاسم",
+    "price": "السعر",
+    "quantity": "الكمية",
+    "subtotal": "الإجمالي الفرعي",
+    "action": "الإجراء",
+    "couponPlaceholder": "رقم القسيمة",
+    "applyCoupon": "تطبيق القسيمة",
+    "cartTotals": "إجمالي السلة",
+    "shippingCharge": "رسوم الشحن",
+    "total": "الإجمالي",
+    "proceed": "الانتقال إلى الدفع"
+  },
+    "login": {
+    "title": "تسجيل الدخول إلى حسابك",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "you@example.com",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "submit": "تسجيل الدخول",
+  "errors": {
+      "requiredEmail": "البريد الإلكتروني مطلوب",
+      "invalidEmail": "يرجى إدخال بريد إلكتروني صالح",
+      "requiredPassword": "كلمة المرور مطلوبة",
+      "shortPassword": "يجب أن تكون كلمة المرور 6 أحرف على الأقل"
+    }
+
+  },
+    "loginButton":"تسجيل دخول"
+
+}
