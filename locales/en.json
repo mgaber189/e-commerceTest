@@ -54,8 +54,8 @@
       "invalidEmail": "Enter a valid email address",
       "requiredPassword": "Password is required",
       "shortPassword": "Password must be at least 6 characters"
-    },
-    "loginButton":"Login"
-  }
+    }
+  },
+  "loginButton":"Login"
 
 }

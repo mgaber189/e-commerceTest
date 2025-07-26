@@ -1,10 +1,7 @@
-<!-- components/Footer.vue -->
 <template>
   <footer class="bg-gray-50 text-gray-800 border-t border-gray-200">
     <div class="max-w-fit mx-auto px-6 py-12">
-      <!-- Main Footer Content -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
-        <!-- Brand Column -->
         <div class="flex flex-col items-center md:items-start">
           <div class="flex items-center gap-4 mb-4">
             <div class="bg-white p-2 rounded-lg shadow-sm">
@@ -23,8 +20,6 @@
             Crafting pixel-perfect, responsive web experiences with modern technologies.
           </p>
         </div>
-
-        <!-- Contact Column -->
         <div class="flex flex-col items-center md:items-start">
           <h3 class="text-gray-900 font-semibold mb-4 flex items-center gap-2">
             <Icon name="mdi:web" class="text-orange-500" />
@@ -51,8 +46,6 @@
             </li>
           </ul>
         </div>
-
-        <!-- Connect Column -->
         <div class="flex flex-col items-center md:items-start">
           <h3 class="text-gray-900 font-semibold mb-4 flex items-center gap-2">
             <Icon name="mdi:code-tags" class="text-orange-500" />
@@ -83,8 +76,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Copyright -->
       <div class="border-t border-gray-200 pt-6 flex flex-col md:flex-row justify-between items-center">
         <p class="text-gray-500 text-sm">
           © 2025 Mohamed El-said Gaber. All rights reserved.

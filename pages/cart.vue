@@ -1,4 +1,3 @@
-<!-- pages/cart.vue -->
 <template>
   <div class="container mx-auto px-4 py-8 max-w-6xl min-h-[55vh]">
     <h1 class="text-3xl font-bold mb-8">{{ $t('cart.title') }}</h1>
@@ -8,7 +7,6 @@
     </div>
 
     <div v-else>
-      <!-- Table -->
       <div class="overflow-x-auto mb-8">
         <table class="w-full border-collapse">
           <thead>
@@ -60,8 +58,6 @@
           </tbody>
         </table>
       </div>
-
-      <!-- Cart actions & coupon -->
       <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
         <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
           <input
@@ -76,8 +72,6 @@
           </button>
         </div>
       </div>
-
-      <!-- Cart Totals -->
       <div class="bg-gray-50 border rounded p-6 max-w-md ml-auto">
         <h2 class="text-xl font-bold mb-4">{{ $t('cart.cartTotals') }}</h2>
         <div class="border-t my-4"></div>

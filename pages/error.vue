@@ -1,4 +1,3 @@
-<!-- pages/error.vue -->
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center bg-white text-center px-4">
     <h1 class="text-6xl font-bold text-orange-500 mb-4">404</h1>

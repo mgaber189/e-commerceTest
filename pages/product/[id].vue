@@ -1,7 +1,6 @@
 <template>
   <div class="max-w-5xl mx-auto py-10 px-4">
     <div v-if="product" class="grid grid-cols-1 md:grid-cols-2 gap-10">
-      <!-- Image -->
       <div>
         <img
           src="/productImage.jpg"
