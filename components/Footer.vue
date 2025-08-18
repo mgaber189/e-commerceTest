@@ -5,6 +5,7 @@
         <div class="flex flex-col items-center md:items-start">
           <div class="flex items-center gap-4 mb-4">
             <div class="bg-white p-2 rounded-lg shadow-sm">
+
               <img
                 src="/personalLogo.png"
                 alt="Mohamed Gaber Logo"
