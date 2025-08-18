@@ -22,7 +22,7 @@
             <tr v-for="item in items" :key="item.id" class="border-b hover:bg-gray-50">
               <td class="py-4 px-4">
                 <div class="flex items-center">
-                  <span> {{ $t(`product.${item.name}`) }}</span>
+                  <span> {{item.title }}</span>
                 </div>
               </td>
               <td class="py-4 px-4 text-right">${{ item.price.toFixed(2) }}</td>
@@ -117,4 +117,40 @@ const subtotal = computed(() => totalPrice.value)
 const total = computed(() => subtotal.value + shippingCharge)
 
 const { addToCart, removeFromCart,  decreaseQuantity } = cart
+useHead({
+  title: 'Shopping Cart | My Shop',
+  meta: [
+    { name: 'description', content: 'Review your selected items before checkout. Manage quantities, apply coupons, and proceed to payment.' },
+    { property: 'og:title', content: 'Shopping Cart' },
+    { property: 'og:description', content: 'Review your selected items before checkout.' },
+    { property: 'og:type', content: 'website' },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org/",
+        "@type": "ShoppingCart",
+        name: "Shopping Cart",
+        url: "https://example.com/cart",
+        potentialAction: {
+          "@type": "CheckoutAction",
+          target: "https://example.com/checkout"
+        },
+        itemListElement: items.value.map((item, index) => ({
+          "@type": "Product",
+          position: index + 1,
+          name: item.title,
+          sku: item.id,
+          offers: {
+            "@type": "Offer",
+            priceCurrency: "USD",
+            price: item.price,
+            availability: "https://schema.org/InStock"
+          }
+        }))
+      })
+    }
+  ]
+})
 </script>

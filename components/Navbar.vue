@@ -16,7 +16,7 @@
              {{ $t('shop') }}
             </NuxtLink>
           </div>
-          <div class="relative ml-4">
+          <!-- <div class="relative ml-4">
             <button 
               @click="toggleLanguageDropdown"
               class="flex items-center text-gray-700 hover:text-gray-900 focus:outline-none"
@@ -42,7 +42,7 @@
                 </button>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="ml-4 flex items-center">
             <NuxtLink to="/cart" class="p-1 rounded-full text-gray-400 hover:text-gray-500 relative">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -77,7 +77,6 @@ import { ref, onMounted } from 'vue'
 import { useCartStore } from '@/stores/cartStore'
 import { storeToRefs } from 'pinia'
 import { useI18n } from 'vue-i18n'
-
 const cart = useCartStore()
 const { totalItems: cartItemCount } = storeToRefs(cart)
 
