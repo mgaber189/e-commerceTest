@@ -7,7 +7,7 @@
             <div class="bg-white p-2 rounded-lg shadow-sm">
 
               <img
-                :src="personalLogo"
+                src="/personalLogo.png"
                 alt="Mohamed Gaber Logo"
                 class="h-10 w-auto"
               />
@@ -89,6 +89,3 @@
   </footer>
 </template>
 
-<script setup>
-import personalLogo from '~/assets/personalLogo.png'
-</script>
