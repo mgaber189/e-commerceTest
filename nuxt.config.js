@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     app: {
     baseURL: '/', // ensure correct base
   },
-    vite: {
+  vite: {
     build: {
       rollupOptions: {
         external: ['/personalLogo.png'],

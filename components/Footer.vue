@@ -7,7 +7,7 @@
             <div class="bg-white p-2 rounded-lg shadow-sm">
 
               <img
-                src="/personalLogo.png"
+      :src="`${baseURL}/personalLogo.png`"
                 alt="Mohamed Gaber Logo"
                 class="h-10 w-auto"
               />
@@ -89,3 +89,6 @@
   </footer>
 </template>
 
+<script setup>
+const baseURL = import.meta.env.BASE_URL || '';
+</script>
